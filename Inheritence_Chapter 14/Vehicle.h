@@ -26,6 +26,8 @@ public:
 	int GetYearBuilt();
 
 	void SetManufacturer(string);
+
+
 	void YearBuilt(int);
 
 
