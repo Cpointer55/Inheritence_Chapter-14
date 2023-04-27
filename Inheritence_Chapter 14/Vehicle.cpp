@@ -12,7 +12,7 @@ vehicle::vehicle ()
 }
 
 
-
+//constructers
 vehicle::vehicle (string Build, int Model)
 {
 	Manufacturer = Build;
@@ -20,6 +20,7 @@ vehicle::vehicle (string Build, int Model)
 
 }
 
+// methods get and return data to the Inheritence cpp
 
 
 
@@ -40,6 +41,7 @@ void vehicle::YearBuilt(int I) {
 	year = I;
 }
 
+// virtual function called to display information about the truck
 void vehicle::DisplayInfo() {
 	cout << "Manufacturer: " << Manufacturer << endl;
 	cout << "Year Built:" << year << endl;

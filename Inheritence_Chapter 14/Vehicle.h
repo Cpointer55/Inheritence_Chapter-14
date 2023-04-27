@@ -1,6 +1,6 @@
 #pragma once
 
-
+// Header for the Vehicle class
 #ifndef Vehicle_H
 
 #define Vehicle_H
@@ -15,9 +15,10 @@ class vehicle
 protected:
 	string Manufacturer;
 	int year;
-
+	// protected members of the vehicle class
 public:
 
+	// methods for storing and displaying data about the vehicle
 	vehicle();
 	vehicle(string, int);
 

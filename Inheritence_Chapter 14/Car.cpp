@@ -2,6 +2,7 @@
 
 #include <iostream>
 
+//constructors
 Car::Car() {
 	NumberOfDoors = 0;
 }
@@ -24,7 +25,8 @@ int Car::GetNumberOfDoors() {
 
 
 
-// display method
+// // virtual function called to display information about the truck
+
 void Car::DisplayInfo() {
 	vehicle::DisplayInfo();
 	cout << "Doors :  " << NumberOfDoors << endl;

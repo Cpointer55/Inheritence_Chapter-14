@@ -8,6 +8,8 @@
 #include "Car.h"
 #include "Truck.h"
 
+
+// Main cpp that calls methods from the vehicle, truck, and car cpps
 int main()
 {
 	vehicle Vehicle = vehicle();
